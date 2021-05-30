@@ -31,7 +31,7 @@ use App\Http\Controllers\ProductController;
       <button class="btn btn-outline-success my-2 my-sm-0" type="Search">Search</button>
     </form>
     <ul class="nav navbar-nav navbar-right">
-      <li style="margin-left:20px;"><a href="#">Cart({{$total}})</a></li>
+      <li style="margin-left:20px;"><a href="/cartlist">Cart({{$total}})</a></li>
 
       @if(Session::has('user'))
       <li class="dropdown" style="margin-left:20px;">
