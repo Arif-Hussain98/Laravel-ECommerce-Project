@@ -20,8 +20,36 @@
   </body>
   <style>
     .custom-login{
-        height: 530px;
+        height: 500px;
         padding-top: 100px;
+    }
+    img.slider-img{
+        height: 500px !important;
+    }
+    .custom-product{
+      height: 600px;
+    }
+    .slider-text{
+      background-color: #d8d8d8 !important;
+    }
+    .slider-background{
+      background-color: #f1f0f0;
+    }
+    img.trending-img{
+      height:100px;
+    }
+    .trending-item{
+      float:left;
+      width:20%;
+    }
+    .trending-wrapper{
+      margin:20px;
+    }
+    .detail-img{
+      height:200px;
+    }
+    .search-box{
+      width:200px !important; 
     }
   </style>
 </html>
