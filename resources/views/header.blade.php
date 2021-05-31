@@ -15,14 +15,10 @@ use App\Http\Controllers\ProductController;
     <a class="navbar-brand" href="/">E-Comm</a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Order <span class="sr-only">(current)</span></a>
-      </li>
-
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Add to Cart <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="myorders">Order <span class="sr-only">(current)</span></a>
       </li>
     </ul>
     
@@ -42,7 +38,8 @@ use App\Http\Controllers\ProductController;
       </ul>
       </li>
       @else
-      <li><a href="/login">Login</a></li>
+      <li style="margin-left:10px;"><a href="/login">Login</a></li>
+      <li style="margin-left:10px;"><a href="/register">Register</a></li>
       @endif
     </ul>
   </div>

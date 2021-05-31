@@ -20,14 +20,14 @@
   </body>
   <style>
     .custom-login{
-        height: 500px;
+        height: 540px;
         padding-top: 100px;
     }
     img.slider-img{
         height: 500px !important;
     }
     .custom-product{
-      height: 600px;
+      height: 750px;
     }
     .slider-text{
       background-color: #d8d8d8 !important;
@@ -55,6 +55,9 @@
       border-bottom: 1px solid #ccc;
       margin-bottom: 20px;
       padding-bottom: 20px;
+    }
+    .custom-detail{
+      height:540px;
     }
   </style>
 </html>
